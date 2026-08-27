@@ -1,7 +1,7 @@
 # Aiboo – AI Agent for Android
 
-**Aiboo** is a Kotlin-based Android AI agent that can understand natural language commands and perform tasks on your device. It is powered by **Google Gemini**, and **[Prexocore](https://github.com/binarybeam/Prexocore)** to simplify Android development and reduce boilerplate code.
-[Download APK](https://github.com/binarybeam/Aiboo/releases/download/1.0.0/aiboo.apk)
+**Aiboo** is a Kotlin-based Android AI agent that can understand natural language commands and perform tasks on your device. It is powered by **Google Gemini**, and **[Prexocore](https://github.com/prexoft/Prexocore)** to simplify Android development and reduce boilerplate code.
+[Download APK](https://github.com/prexoft/Aiboo/releases/download/1.0.0/aiboo.apk)
 
 > **Prexocore** is a utility library for Android that powers Aiboo's background operations, including permission handling, view interactions, file operations, and system actions.
 
@@ -32,7 +32,7 @@ Aiboo can perform these tasks in the background after understanding your query:
 * **Agent Layer:** Aiboo interprets your intent and required details
 * **Task Execution:** Action is performed on the device silently in the background
 * **Feedback:** Only the `message` (short status) is shown to the user with Lottie animations
-* **Utility Backbone:** [**Prexocore**](https://github.com/binarybeam/Prexocore) handles:
+* **Utility Backbone:** [**Prexocore**](https://github.com/prexoft/Prexocore) handles:
 
   * Permission requests & checks
   * View operations (show/hide/focus)
@@ -55,7 +55,7 @@ Aiboo can perform these tasks in the background after understanding your query:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/binarybeam/Aiboo.git
+   git clone https://github.com/prexoft/Aiboo.git
    ```
 2. Open in **Android Studio**, sync Gradle.
 3. Run on your device.
@@ -136,4 +136,4 @@ Aiboo requests permissions only when required:
 
 Open-source under the **Apache-2.0 License**.
 
-> **Aiboo** – Powered by [**Prexocore**](https://github.com/binarybeam/Prexocore), speak and let your Android do the rest in the background ✨
+> **Aiboo** – Powered by [**Prexocore**](https://github.com/prexoft/Prexocore), speak and let your Android do the rest in the background ✨
